@@ -1,0 +1,18 @@
+body, html{
+  margin:0;
+  overscroll-behavior: none;
+  background: #a1785c ;
+  scroll-behavior: smooth;
+}
+.ground{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  margin-top: 48px;
+  padding: 10px;
+  width: 680px;
+  z-index: 10;
+  position: relative;
+}
