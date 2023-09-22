@@ -45,3 +45,72 @@ body, html{
   line-height: 22px;
   text-transform: none;
 }
+.button-section{
+  margin-top: 24px;
+}
+.button{
+  position: relative;
+  border-radius: 10px;
+  transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+  margin: 16px 0;
+}
+.button:hover {
+  transform: translate3d(0px, 0px, 0px) scale(1.015);
+}
+.button-each{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: -1;
+  border: 0px solid transparent;
+  background: #f9f6f2;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+.linked{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  text-decoration: none;
+  z-index: 10;
+  color: #000000;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+  border-radius: 10px;
+  min-height: 60px;
+  padding: 10px;
+}
+.button-content-img{
+  position: absolute;
+  left: 9px;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.button-content-title{
+  width: 55%;
+  color: #6b3e2e;
+  text-align: center;
+  word-break: break-word;
+}
+.brand-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.brand-img{
+  object-fit: contain;
+  text-align: center;
+  width: 90px;
+}
